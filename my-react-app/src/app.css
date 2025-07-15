@@ -1,0 +1,10 @@
+nav{
+    background-color: #969292;
+    color: #d4afaf;
+    padding: 10px;
+    display: flex;
+    border-radius: 50px;
+    width: 250px;
+    align-items: center;
+    justify-content: space-around;
+}

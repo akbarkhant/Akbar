@@ -1,0 +1,159 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th{    
+  border: 1px solid #dac3c3;
+  padding: 12px;
+  text-align: left;
+  background: rgb(148, 135, 108);
+}
+td{
+  border: 1px solid #caafaf;
+  padding: 12px;
+  text-align: left;
+  background: rgb(172, 166, 154);
+}
+thead {
+  background-color: #d4c0c0;
+}
+.edit-btn {
+  background-color: #767c77;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #af7976;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-popup {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 300px;
+  padding: 20px;
+  background: #ffffff;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.edit-popup input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.apply-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/* Top right toggle */
+.dropdown-container {
+  position: fixed;
+  top: 20px;
+}
+
+.toggle-btn {
+  background-color: #464747;
+  color: white;
+  padding: 10px 14px;
+  font-size: 18px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  left: 1580px;  
+}
+
+.dropdown-menu {
+  position: relative;
+  left: 1430px;
+  background: #464747;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height:80vh;
+  transform: translateX(-3%);
+}
+
+.dropdown-menu button {
+  margin: 15px;
+  padding: 15px 10px;
+  width: 120px;
+  text-align: left;
+  border: 4px solid rgb(133, 118, 118);
+  border-radius: 18px;
+  background: #bbb7b7;
+  cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+  background-color: #cad4d4;
+}
+
+/* Others already defined */
+.edit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-popup {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 300px;
+  padding: 20px;
+  background: #ffffff;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.edit-popup input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.apply-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
